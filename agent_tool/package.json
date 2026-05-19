@@ -1,0 +1,16 @@
+{
+  "name": "zx-calc-agent-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "calc": "tsx src/cli.ts",
+    "check": "tsc --noEmit",
+    "test:example": "npm run calc -- --input examples/zhu_shuang_mo_t21_boss1.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3"
+  }
+}
